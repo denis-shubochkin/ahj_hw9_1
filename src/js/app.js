@@ -1,14 +1,13 @@
 const but = document.querySelector('.button');
 const main = document.querySelector('.main');
-let flag=0;
+let flag = 0;
 
 but.addEventListener('click', () => {
-  if (flag===0) {
+  if (flag === 0) {
     main.classList.add('open-info');
     flag = 1;
-  }
-   else {
+  } else {
     main.classList.remove('open-info');
     flag = 0;
-   }
-})
+  }
+});

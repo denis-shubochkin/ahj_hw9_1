@@ -1,0 +1,39 @@
+
+.main {
+  background-color: white;
+  border: 1px solid black;
+  margin-top: 20px;
+  margin-left: 20px;
+  width: 400px;
+  height: 30px;
+  padding: 10px;
+  overflow: hidden;
+  transition: height 2s;
+}
+
+.open-info {
+  height: 100px;
+}
+
+
+.button {
+  color: white;
+  background-color: rgb(45, 45, 182);
+  width: 80px;
+  height: 30px;
+  border-radius: 7px;
+  margin-bottom: 20px;
+  border: none;
+  outline: none;
+}
+
+.button:hover {
+  border: 2px solid rgb(111, 111, 182);
+}
+
+.text {
+  padding: 3px;
+  border: 1px solid black;
+  border-radius: 7px;
+}
+
